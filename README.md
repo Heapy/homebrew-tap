@@ -1,2 +1,7 @@
-# homebrew-keemun
-Homebrew tap for installing the Keemun decision graph CLI
+# homebrew-tap
+
+Homebrew tap for Heapy tools.
+
+```bash
+brew tap Heapy/tap
+```
