@@ -1,11 +1,11 @@
 class Kotgent < Formula
   desc "Local-first dispatcher for coding-agent sessions (Claude & Codex in tmux)"
   homepage "https://github.com/Heapy/kotgent"
-  version "0.3.0"
+  version "0.4.0"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Heapy/kotgent/releases/download/v0.3.0/kotgent-0.3.0-macos-arm64.tar.gz"
-    sha256 "4b454923bb0d13832d0f9d036f31250909fb75b690b4d7bd5b7710cb6ce29ced"
+    url "https://github.com/Heapy/kotgent/releases/download/v0.4.0/kotgent-0.4.0-macos-arm64.tar.gz"
+    sha256 "4407cd306199249bf812ca500d6b3b1d2ad9adf806a6acfcff0dff3d4ad9f9bd"
   else
     odie "kotgent binary releases are available for macOS ARM64 only"
   end
@@ -23,6 +23,6 @@ class Kotgent < Formula
   end
 
   test do
-    assert_match "kotgent 0.3.0", shell_output("#{bin}/kotgent --version")
+    assert_match "kotgent 0.4.0", shell_output("#{bin}/kotgent --version")
   end
 end
