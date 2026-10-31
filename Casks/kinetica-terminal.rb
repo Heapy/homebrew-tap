@@ -1,6 +1,6 @@
 cask "kinetica-terminal" do
-  version "0.1.0"
-  sha256 "e5e7e0df30c811658fc7baa143b012460e0157e6932649a7e2ed317349d6209f"
+  version "0.2.0"
+  sha256 "9f192a63760127fb377a4814897f4b31b61bd3398a9f2e63e1abd66fcfbbc519"
 
   url "https://github.com/Heapy/kinetica-terminal/releases/download/v#{version}/Kinetica-Terminal-#{version}-macos-arm64.zip"
   name "Kinetica Terminal"
