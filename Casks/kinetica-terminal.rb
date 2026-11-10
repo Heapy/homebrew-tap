@@ -13,7 +13,7 @@ cask "kinetica-terminal" do
   app "Kinetica Terminal.app"
 
   caveats <<~EOS
-    This is a preview release. Known limitations are documented at:
+    Known limitations are documented at:
       https://github.com/Heapy/kinetica-terminal/releases/tag/v#{version}
   EOS
 end

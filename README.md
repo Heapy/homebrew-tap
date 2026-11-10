@@ -29,7 +29,7 @@ brew install --cask Heapy/tap/kinetica-terminal
 ```
 
 Requires an Apple Silicon Mac and macOS Monterey or later. The current `0.4.0`
-build is a preview, signed with Developer ID and notarized by Apple, with a
+release is signed with Developer ID and notarized by Apple, with a
 stapled notarization ticket. See the
 [release notes](https://github.com/Heapy/kinetica-terminal/releases/tag/v0.4.0)
 for changes, validation and known limitations. Older macOS versions have not
